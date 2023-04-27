@@ -12,12 +12,9 @@ const MenuItem = (props) => {
         />
         <div class="card-body">
           <h5 class="card-title">{props.dish.name}</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
+          <p class="card-text">{props.dish.description}</p>
+          <a onClick={props.clickFunction} class="btn btn-primary">
+            Click to see details
           </a>
         </div>
       </div>

@@ -1,4 +1,40 @@
+.row{
+    justify-content: center;
+}
+
 .card{
-    margin: 50px 0px;
-    border: 2px solid #F49586;
+    margin-top: 50px;
+    border: 2px solid lightcoral !important;
+}
+
+.FormContainer{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid royalblue;
+    margin-bottom: 70px;
+}
+
+.form-floating{
+    margin-bottom: 1rem!important;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.form-check{
+    width: 22%;
+    margin: auto;
+    margin-bottom: 20px !important;
+}
+
+.form-select{
+    width: 60% !important;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+}
+
+#exampleFormControlTextarea1{
+    width: 60% !important;
+    margin: auto !important;
 }
